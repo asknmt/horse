@@ -1,0 +1,352 @@
+body {
+  margin: 0 auto;
+  font-family: 'FOT-筑紫B丸ゴシック Std','貂明朝テキスト','DNP 秀英丸ゴシック Std','游ゴシック体';
+  background-color: #fdf7eb;
+  font-feature-settings: "palt";
+}
+body.nonscroll {
+  overflow: hidden;
+}
+/*=============
+.bg_pattern
+==============*/
+.bg_pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #acdfa7;
+  opacity: 0.1;
+  z-index: -1;
+}
+.Isometric {
+  background-image:  linear-gradient(30deg, #d8fad0 12%, transparent 12.5%, transparent 87%, #d8fad0 87.5%, #d8fad0), linear-gradient(150deg, #d8fad0 12%, transparent 12.5%, transparent 87%, #d8fad0 87.5%, #d8fad0), linear-gradient(30deg, #d8fad0 12%, transparent 12.5%, transparent 87%, #d8fad0 87.5%, #d8fad0), linear-gradient(150deg, #d8fad0 12%, transparent 12.5%, transparent 87%, #d8fad0 87.5%, #d8fad0), linear-gradient(60deg, #52774677 25%, transparent 25.5%, transparent 75%, #52774677 75%, #52774677), linear-gradient(60deg, #52774677 25%, transparent 25.5%, transparent 75%, #52774677 75%, #52774677);
+  background-size: 40px 80px;
+  background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.drawer {
+  display: none;
+}
+/*ヘッダー*/
+header {
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+.header-img img{
+  width: 100%;
+  margin: 0 auto;
+}
+.head_list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 56%;
+  margin: 0 auto;
+}
+
+.head_list li {
+  margin-top: 32px; 
+  display: block;
+}
+
+.head_list li a {
+  color: #fff;
+  background-color: #6a780f;
+  padding: 8px 32px;
+  border-radius: 20px;
+}
+
+.head_list li a:hover,.course a:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.top,.event,.map {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.top h1,.event h2,.experience h2,.question h2,.map h2 {
+  color: #6a780f;
+  margin: 160px 0 72px 0;
+  font-size: 40px;
+  text-align: center;
+}
+.top h2,.top p,.event p,.experience p,.money,.reserve,.question,.answer {
+  color: #394100;
+}
+.top-sentence h1,.event p,.red-p p {
+  font-size: 24px;
+  line-height: 1.5;
+}
+.back {
+  background-color: rgba(255, 255, 255, 0.527);
+  padding: 80px 48px;
+}
+/*トップ*/
+.top h2 {
+  margin-bottom: 32px;
+  font-size: 32px;
+}
+.top-sentence {
+  position: absolute;
+  z-index: 5;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.562);
+  padding: 80px 48px;
+}
+.top-sentence h3 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: normal;
+  font-size: 24px;
+}
+.top img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+/*イベント*/
+.event_img img {
+  margin-top: 80px;
+}
+.event_img,.map-img {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.event_img img,.map-img img {
+  width: 45%;
+  margin-bottom: 80px;
+}
+.back-p {
+  white-space: pre;
+}
+.skeju {
+  background-color: #fcecce;
+  width: 50%;
+  margin:  0 auto;
+  padding: 56px 64px;
+  margin-top: 24px;
+}
+.skeju_title {
+  font-size: 24px!important;
+  font-weight: bold;
+}
+.skeju_attention {
+  font-size: 16px;
+}
+.skeju p {
+  letter-spacing: 1px;
+}
+.skeju_time {
+  display: flex;
+  margin-bottom: 24px;
+}
+.skeju_p {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.ske_timep {
+  margin-left: 40px;
+}
+.time,.ske_timep {
+  font-size: 28px!important;
+}
+.red-p p{
+  color: #ff0101;
+  margin: 40px 0;
+  font-size: 16px;
+}
+.event_poster {
+  width: 48%;
+}
+/*体験*/
+.experience-p p {
+  margin-bottom: 64px;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.money {
+  background-color: #e5e9cb;
+  margin: 0 auto;
+  padding: 80px 64px;
+  width: 80%;
+  border-radius: 300px;
+}
+.money_expe {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+  height: inherit;
+  margin: 0 auto;
+}
+.img_center {
+  margin: 136px auto;
+}
+.horse_p {
+  width: 40%;
+}
+.horse_p p {
+  line-height: 1.5;
+}
+.money_img img{
+  width: 80%;
+}
+.horse_money {
+  font-weight: bold;
+  font-family: '凸版文久見出しゴシック','平成角ゴシック';
+  font-size: 35px;
+  background:linear-gradient(transparent 70%, #95c58f 0%);
+}
+.money_time {
+  font-size: 25px;
+}
+.money_p{
+  font-size: 20px;
+  margin-top: 16px;
+  border: solid 1px #394100;
+  padding: 16px 32px;
+  background-color: rgba(255, 255, 255, 0.562);
+}
+.course {
+  width: 32%;
+  margin-left: auto;
+  margin-top: -16px;
+}
+.course a {
+  color: #fff;
+  background-color: #80aa7a;
+  text-align: center;
+  padding: 24px 32px;
+  border-radius: 40px;
+  font-size: 25px;
+}
+/*スライド*/
+.content {
+  width: 440px;
+  height: auto;
+}
+.slideshow {
+  display: flex;
+  animation: loop-slide 40s infinite linear 1s both;
+}
+.slideshow img {
+  width: 440px;
+  height: auto;
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  height: auto; 
+  overflow: hidden;
+  margin: 0;
+}
+.wrap ul {
+  list-style: none;
+}
+@keyframes loop-slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+} 
+
+/*注意事項*/
+.attention {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 112px;
+  margin-bottom: 112px;
+}
+.attention h2 {
+  color: #ff0101;
+  font-size: 20px;
+}
+.attention-p {
+  white-space: pre-wrap; 
+  background-color: #f8e5be;
+  padding: 24px 0 24px 24px;
+  font-size: 15px;
+  margin-top: 24px!important;
+  line-height: 2;
+  width: 100%;
+  margin:  0 auto;
+}
+
+/*質問*/
+.question {
+  width: 100%;
+  margin: 0 auto;
+}
+.list {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+.list h3 {
+  font-size: 20px;
+}
+.list:hover {
+  cursor: pointer;
+}
+.list-color {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #cdd4a0;
+  margin-bottom: 24px;
+  padding: 24px 32px;
+  color: #394100;
+}
+.answer {
+  margin-bottom: 20px;
+  background-color: #fdf7eb;
+  width: 100%;
+  padding: 24px 32px;
+  display: none;
+}
+.answer p{
+  font-size: 17px;
+  line-height: 1.8;
+}
+.plus::before {
+  content: "+";
+}
+.plus.open::before {
+  content: "-";
+}
+/*マップ*/
+.map {
+  margin-bottom: 112px;
+  width: 100%;
+}
+.map-img {
+  width: 100%;
+  justify-content: space-around;
+}
+/*フッター*/
+footer {
+  height: 56px;
+  background-color: #6a780f;
+  margin-top: 0;
+}
+footer p {
+  line-height: 56px;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  margin: 0;
+}

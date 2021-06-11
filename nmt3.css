@@ -1,0 +1,99 @@
+@media (max-width: 670px){
+  .wrap {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  .contents {
+    width: 100%;
+  }
+
+  body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .company {
+    z-index: 100;
+    padding-top: 150px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -60px;
+  }
+   .copy-size p {
+    font-size: 15px;
+  }
+  .copy-size h1 {
+    font-size: 40px;
+  }
+  .logo {
+    width: 50%;
+    margin-left: 20px;
+  }
+/* アイコンがクリックされたらメニューを表示 */
+#drawer-check:checked ~ .drawer-content {
+  left: 40%;/* メニューを画面に入れる */
+}
+/* メニューのデザイン*/
+.drawer-content {
+  width: 60%;
+}
+  .menu {
+    margin-right: 30px;
+    font-size: 10px;
+  }
+  .drawer-open {
+    right: 30;
+}
+  .about h2,.photos h2,.latest-size h2,.recruit h2 {
+    font-size: 25px;
+  }
+  .about p,.photos p,.news,.recruit p {
+    font-size: 15px;
+  }
+
+  /*about*/
+  .about-img {
+    width: 100%;
+    padding: 80px 0;
+    margin-top: 100px;
+  }
+  .about {
+    padding: 30px 10px;
+    width: 80%;
+  }
+  .photos {
+    margin-top: 0;
+  }
+
+  /*latest topics*/
+  .latest-topics {
+    height: 90%;
+  }
+  .about h2, .works h2,.recruit h2 {
+    margin-top: 40px;
+  }
+  .latest-size h2 {
+    margin-top: 60px;
+  }
+  .culture h2 {
+    margin-top: 0;
+  }
+
+   .btn {
+    margin-bottom: 50px;
+  }
+
+  .topics {
+    margin: 0 auto;
+    width: 100%;
+  }
+  /*contact*/
+  .recruit-img img{
+    width: 100%;
+    padding: 0;
+  }
+}

@@ -1,0 +1,131 @@
+@media (max-width: 670px){
+  .top h1,.event h2,.experience h2,.question h2,.map h2 {
+    margin: 32px 0 20px 0;
+    font-size: 20px;
+  }
+  .top h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }  
+  .top h3{
+    font-size: 12px;
+  }  
+  .top-sentence {
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.767);
+    padding: 24px 8px;
+  }
+  .money,.back {
+    padding: 32px 8px;
+  }
+  .event p,.red-p p,.top-sentence h1 {
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 1px;  
+  } 
+  .event_img,.skeju_time,.money_expe,.img_center,.map-img {
+    display: block;
+  }
+  .drawer-open {
+    right: 20px;
+  }
+  .drawer-item a {
+    font-size: 20px;
+  }  
+    /*イベント*/
+  .back {
+    width: 100%;
+  }
+  .event_img img {
+    width: 100%;
+    margin: 40px 0;
+  }
+  .event_poster {
+    width: 80%;
+  }
+  .skeju {
+    width: 100%;
+    margin:  0 auto;
+    padding: 16px 8px;
+    margin-top: 20px;
+  }  
+  .skeju_title,.skeju_time p,.red-p {
+    font-size: 15px!important;
+  }  
+  .skeju_attention {
+    font-size: 10px;
+  }
+  .skeju_p {
+    width: 60%;
+  }
+  .skeju_time {
+    width: 100%;
+    text-align: left;
+  }
+  .ske_timep {
+    margin-left: 0px;
+  }
+  .red-p p{
+    margin-bottom: 32px;
+  }
+  .attention-p {
+    padding: 20px 20px;
+  }
+  /*体験*/
+  .experience-p {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .experience-p p {
+    font-size: 15px;
+    margin-bottom: 32px;
+  }
+  .money_p{
+    font-size: 13px;
+  }  
+  .img_center {
+    margin: 96px auto;
+  }
+  .money {
+    width: 90%;
+    border-radius: 50px;
+    padding: 32px 24px;
+  }  
+  .money_expe p,.money_expe img {
+    width: 100%;
+  }
+  .horse_money,.money_time {
+    font-size: 15px;
+  }
+  .horse_money {
+    font-size: 20px;
+  }
+  .horse_p {
+    width: 100%;
+  }  
+  .course {
+    width: 100%;
+    margin: 48px 0;
+    text-align: center;
+  }
+  .attention {
+    margin: 64px auto;
+  }  
+  .wrap {
+    height: 10%;
+  }
+  /*質問*/
+  .list {
+    width: 90%;
+  }  
+  .list-color h3 {
+    font-size: 15px;
+  }
+  /*マップ*/
+  .map {
+    margin-bottom: 72px;
+  }
+  .map-img img {
+    margin-bottom: 24px;
+  }
+}
