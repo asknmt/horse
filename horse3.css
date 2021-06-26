@@ -125,7 +125,11 @@
   .map {
     margin-bottom: 72px;
   }
-  .map-img img {
-    margin-bottom: 24px;
+    .map-img,.map-p {
+    width: 100%;
   }
+  .map-p {
+    font-size: 12px;
+  }
+
 }
