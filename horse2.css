@@ -220,6 +220,10 @@
 .attention-p,.answer p {
   font-size: 14px;
 }
+  /*マップ*/
+.map-img,.map-p {
+  width: 90%;
+}
 /*質問*/
 .list {
   width: 80%;
