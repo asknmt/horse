@@ -4,6 +4,7 @@ body {
   background-color: #fdf7eb;
   font-feature-settings: "palt";
 }
+
 body.nonscroll {
   overflow: hidden;
 }
@@ -346,7 +347,7 @@ header {
   margin: 0 auto;
   font-size: 20px;
   line-height: 25px;
-
+}
 /*フッター*/
 footer {
   height: 56px;
