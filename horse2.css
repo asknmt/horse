@@ -90,7 +90,7 @@
   position: absolute;
 }
 .drawer-item {
-  font-size: 32px;
+  font-size: 1.5rem;
   padding-bottom: 40px;
 }
 .drawer {
@@ -112,7 +112,7 @@
   color:#fff!important;
 }
 .top h1,.event h2,.experience h2,.question h2,.map h2 {
-  font-size: 30px;
+  font-size: 2rem;
   margin: 64px 0 48px 0;
 }
 .event_img,.skeju_time,.money_expe,.img_center,.map-img {
@@ -125,19 +125,19 @@
   width: 90%;
 }
 .top h2{
-  font-size: 24px;
+  font-size: 1.8rem;
   width: 100%;
 }
 .top h3 {
-  font-size: 20px;
+  font-size: 1.2rem;
   width: 90%;
 }
 .top-sentence p {
   width: 80%;
 }
-.top-sentence p,.back-p,.event p,.red-p p,.skeju_attention {
-  font-size: 23px;
-  line-height: 1.8;
+.back-p,.red-p p,.skeju_attention {
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 /*イベント*/
 .back-p {
@@ -151,7 +151,7 @@
   margin-top: 40px;
 }
 .skeju_title {
-  font-size: 24px!important;
+  font-size: 1.2rem!important;
   font-weight: bold;
 }
 .skeju_time {
@@ -159,7 +159,7 @@
   display: flex;
 }
 .skeju_attention {
-  font-size: 18px;
+  font-size: 1rem;
 }
 .skeju_p {
   width: 80%;
@@ -167,28 +167,35 @@
   margin-top: 20px;
 }
 .time,.ske_timep {
-  font-size: 24px!important;
+  font-size: 1.5rem!important;
 }
 .red-p p{
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 .event_poster {
   width: 50%;
 }
 /*体験*/
 .money {
-  padding: 72px 64px;
+  padding: 40px 32px;
   width: 90%;
   border-radius: 100px;
 }
 .money_expe, .img_center {
   width: 100%;
 }
-.experience-p p,.horse_money {
-  font-size: 20px;
+.experience-p,.horse_money {
+  font-size: 1.3rem;
+  margin-bottom: 40px;
 }
+.experience-p {
+text-align: center;
+width: 90%;
+margin: 0 auto;
+}
+
 .attention h2,.list p {
-  font-size: 18px;
+  font-size: 1.3rem;
 }
 .money_img{
   text-align: center;
@@ -196,8 +203,11 @@
 .money_img img {
   width: 70%;
 }
+.img_center {
+  margin: 96px auto;
+}
 .horse_money {
-  font-size: 32px;
+  font-size: 1.8rem;
 }
 .horse_p {
   width: 100%;
@@ -208,11 +218,13 @@
   margin-top: 0px;
 }
 .course a {
-  font-size: 15px;
+  font-size: 1rem;
   padding: 16px 24px;
 }
 .attention {
   width: 70%;
+  margin-top: 64px;
+  margin-bottom: 80px;
 }
 .attention {
   width: 90%;
@@ -220,7 +232,7 @@
 .attention-p,.answer p {
   font-size: 14px;
 }
-  /*マップ*/
+/*マップ*/
 .map-img,.map-p {
   width: 90%;
 }
@@ -229,6 +241,6 @@
   width: 80%;
 }
 .list h3 {
-  font-size: 18px;
+  font-size: 1rem;
 }
 }
