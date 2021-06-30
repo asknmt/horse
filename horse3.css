@@ -1,14 +1,14 @@
 @media (max-width: 670px){
   .top h1,.event h2,.experience h2,.question h2,.map h2 {
     margin: 32px 0 20px 0;
-    font-size: 20px;
+    font-size: 1.3rem;
   }
   .top h2 {
-    font-size: 16px;
+    font-size: 1rem;
     margin-bottom: 8px;
   }  
   .top h3{
-    font-size: 12px;
+    font-size: 0.7rem;
   }  
   .top-sentence {
     width: 90%;
@@ -18,9 +18,9 @@
   .money,.back {
     padding: 32px 8px;
   }
-  .event p,.red-p p,.top-sentence h1 {
-    font-size: 12px;
-    line-height: 1.5;
+  .back-p,.red-p p,.top-sentence h1 {
+    font-size: 0.7rem;
+    line-height: 1.2;
     letter-spacing: 1px;  
   } 
   .event_img,.skeju_time,.money_expe,.img_center,.map-img {
@@ -38,7 +38,7 @@
   }
   .event_img img {
     width: 100%;
-    margin: 40px 0;
+    margin: 24px 0;
   }
   .event_poster {
     width: 80%;
@@ -49,11 +49,15 @@
     padding: 16px 8px;
     margin-top: 20px;
   }  
-  .skeju_title,.skeju_time p,.red-p {
-    font-size: 15px!important;
+  .skeju h5 {
+    font-size: 1rem!important;
+  }  
+  .skeju_time p,.red-p {
+    font-size: 1rem!important;
+    line-height: 1.2;
   }  
   .skeju_attention {
-    font-size: 10px;
+    font-size: 0.7rem;
   }
   .skeju_p {
     width: 60%;
@@ -72,16 +76,14 @@
     padding: 20px 20px;
   }
   /*体験*/
-  .experience-p {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .experience-p p {
+  .experience-p  {
     font-size: 15px;
-    margin-bottom: 32px;
+    text-align: center;
+    width: 90%;
+    margin: 32px auto;
   }
   .money_p{
-    font-size: 13px;
+    font-size: 0.8rem;
   }  
   .img_center {
     margin: 96px auto;
@@ -94,11 +96,11 @@
   .money_expe p,.money_expe img {
     width: 100%;
   }
-  .horse_money,.money_time {
-    font-size: 15px;
-  }
   .horse_money {
-    font-size: 20px;
+    font-size: 1.2rem;
+  }
+  .money_time {
+    font-size: 1rem;
   }
   .horse_p {
     width: 100%;
@@ -119,17 +121,17 @@
     width: 90%;
   }  
   .list-color h3 {
-    font-size: 15px;
+    font-size: 0.8rem;
+    line-height: 1.5;
   }
   /*マップ*/
   .map {
     margin-bottom: 72px;
   }
-    .map-img,.map-p {
+  .map-img,.map-p {
     width: 100%;
   }
   .map-p {
-    font-size: 12px;
+    font-size: 0.5rem;
   }
-
 }
