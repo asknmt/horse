@@ -1,10 +1,12 @@
+html {
+  font-size: 62.5%;
+}
 body {
   margin: 0 auto;
-  font-family: "ヒラギノ角ゴ ProN",Arial,sans-serif,"FOT-筑紫B丸ゴシック Std","貂明朝テキスト","DNP 秀英丸ゴシック Std","游ゴシック体";
+  font-family: 'FOT-筑紫B丸ゴシック Std','貂明朝テキスト','DNP 秀英丸ゴシック Std','游ゴシック体';
   background-color: #fdf7eb;
   font-feature-settings: "palt";
 }
-
 body.nonscroll {
   overflow: hidden;
 }
@@ -47,7 +49,7 @@ header {
   display: flex;
   justify-content: space-around;
   list-style: none;
-  width: 56%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -75,14 +77,14 @@ header {
 .top h1,.event h2,.experience h2,.question h2,.map h2 {
   color: #6a780f;
   margin: 160px 0 72px 0;
-  font-size: 40px;
+  font-size: 2.8rem;
   text-align: center;
 }
 .top h2,.top p,.event p,.experience p,.money,.reserve,.question,.answer {
   color: #394100;
 }
-.top-sentence h1,.event p,.red-p p {
-  font-size: 24px;
+.red-p p {
+  font-size: 1.3rem;
   line-height: 1.5;
 }
 .back {
@@ -92,7 +94,8 @@ header {
 /*トップ*/
 .top h2 {
   margin-bottom: 32px;
-  font-size: 32px;
+  font-size: 2rem;
+  line-height: 1.5;
 }
 .top-sentence {
   position: absolute;
@@ -106,7 +109,8 @@ header {
   margin-left: auto;
   margin-right: auto;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 1.4rem;
+  line-height: 1.3;
 }
 .top img {
   width: 100%;
@@ -133,18 +137,17 @@ header {
   background-color: #fcecce;
   width: 50%;
   margin:  0 auto;
-  padding: 56px 64px;
+  padding: 32px 16px;
   margin-top: 24px;
 }
-.skeju_title {
-  font-size: 24px!important;
+.skeju h5 {
+  font-size: 1.5rem!important;
   font-weight: bold;
+  margin-bottom: 16px;
+  line-height: 1.3;
 }
 .skeju_attention {
-  font-size: 16px;
-}
-.skeju p {
-  letter-spacing: 1px;
+  font-size: 1.2rem;
 }
 .skeju_time {
   display: flex;
@@ -159,7 +162,7 @@ header {
   margin-left: 40px;
 }
 .time,.ske_timep {
-  font-size: 28px!important;
+  font-size: 1.3rem!important;
 }
 .red-p p{
   color: #ff0101;
@@ -167,13 +170,13 @@ header {
   font-size: 16px;
 }
 .event_poster {
-  width: 48%;
+  width: 40%;
 }
 /*体験*/
-.experience-p p {
+.experience-p {
   margin-bottom: 64px;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 2rem;
   letter-spacing: 3px;
   text-align: center;
 }
@@ -202,19 +205,19 @@ header {
   line-height: 1.5;
 }
 .money_img img{
-  width: 80%;
+  width: 90%;
 }
 .horse_money {
   font-weight: bold;
   font-family: '凸版文久見出しゴシック','平成角ゴシック';
-  font-size: 35px;
+  font-size: 1.8rem;
   background:linear-gradient(transparent 70%, #95c58f 0%);
 }
 .money_time {
-  font-size: 25px;
+  font-size: 1.2rem;
 }
 .money_p{
-  font-size: 20px;
+  font-size: 1rem;
   margin-top: 16px;
   border: solid 1px #394100;
   padding: 16px 32px;
@@ -231,7 +234,7 @@ header {
   text-align: center;
   padding: 24px 32px;
   border-radius: 40px;
-  font-size: 25px;
+  font-size: 1rem;
 }
 /*スライド*/
 .content {
@@ -274,13 +277,13 @@ header {
 }
 .attention h2 {
   color: #ff0101;
-  font-size: 20px;
+  font-size: 1.3rem;
 }
 .attention-p {
   white-space: pre-wrap; 
   background-color: #f8e5be;
   padding: 24px 0 24px 24px;
-  font-size: 15px;
+  font-size: 1rem;
   margin-top: 24px!important;
   line-height: 2;
   width: 100%;
@@ -298,7 +301,7 @@ header {
   width: 50%;
 }
 .list h3 {
-  font-size: 20px;
+  font-size: 1.3rem;
 }
 .list:hover {
   cursor: pointer;
@@ -320,7 +323,7 @@ header {
   display: none;
 }
 .answer p{
-  font-size: 17px;
+  font-size: 1rem;
   line-height: 1.8;
 }
 .plus::before {
@@ -345,8 +348,8 @@ header {
   text-align: left;
   width: 50%;
   margin: 0 auto;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 1.3rem;
+  line-height: 2;
 }
 /*フッター*/
 footer {
@@ -358,6 +361,6 @@ footer p {
   line-height: 56px;
   color: #fff;
   text-align: center;
-  font-size: 15px;
+  font-size: 0.4rem;
   margin: 0;
 }
