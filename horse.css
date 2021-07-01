@@ -1,3 +1,6 @@
+* {
+font-feature-settings: "palt";
+}
 html {
   font-size: 62.5%;
 }
