@@ -1,177 +1,323 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>御猟野乃杜牧場</title>
+  <title>Document</title>
   <link rel="stylesheet" href="horse.css">
   <link rel="stylesheet" href="horse2.css">
   <link rel="stylesheet" href="horse3.css">
   <link rel="stylesheet" href="reset.css">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
 </head>
+
 <body>
-<header>
-  <div class="header-img">
-    <img src="img/head.jpg" alt="ヘッダー画像">
-  </div>
-  <ul class="head_list">
-    <li><a href="#top-section" style="text-decoration:none;">御猟野乃杜牧場より</a></li>
-    <li><a href="#event-section" style="text-decoration:none;">イベント</a></li>
-    <li><a href="#experience-section" style="text-decoration:none;">体験</a></li>
-    <li><a href="#question-section" style="text-decoration:none;">よくある質問</a></li>
-    <li><a href="#map-section" style="text-decoration:none;">マップ</a></li>
-  </ul>
-    <!-- ハンバーガーメニュー部分 -->
-<div class="drawer" id="burger">
-
-  <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
-  <input type="checkbox" id="drawer-check" class="drawer-hidden" >
-
-  <!-- ハンバーガーアイコン -->
-  <label for="drawer-check" class="drawer-open" id="click">
-    <span></span>
-  </label>
-
-  <!-- メニュー -->
-  <nav class="drawer-content">
-    <ul class="drawer-list" id="humber">
-      <li class="drawer-item">
-        <a href="#top-section" style="text-decoration:none;">御猟野乃杜牧場より</a>
-      </li><!-- /.drawer-item -->
-      <li class="drawer-item">
-        <a href="#event-section" style="text-decoration:none;">イベント</a>
-      </li><!-- /.drawer-item -->
-      <li class="drawer-item">
-        <a href="#experience-section"  style="text-decoration:none;">体験</a>
-      </li><!-- /.drawer-item -->
-      <li class="drawer-item">
-        <a href="#question-section" style="text-decoration:none;">よくある質問</a>
-      </li>
-      <li class="drawer-item">
-        <a href="#map-section" style="text-decoration:none;">マップ</a>
-      </li>
-    </ul><!-- /.drawer-list -->
-  </nav>
-  <span class="burger-musk" id="musk"></span>
-</div><!--drawer-->
-</header>
-<div class="bg_pattern Isometric"></div>
-
-<section class="top" id="top-section">
-  <h1>御猟野乃杜牧場より</h1>
-  <div class="top-sentence">
-    <h2>『日本人にこそ、日本の馬と日本の馬具、騎乗法の存在を知ってほしい。』</h2>
-    <h3>そんな想いから「日本の馬 御猟野乃杜牧場」は、生まれました。
-    日本の馬 御猟野乃杜牧場(みかりののもりぼくじょう)は、馬の神社である滋賀県近江八幡市 賀茂神社の歴史ある馬場を拠点に、日本の馬と馬文化を伝える活動を行う小さな牧場です。</h3>
-  </div>
-  <img src="img/top_img.png">
-</section>
-
-<section class="event" id="event-section">
-  <h2>イベント</h2>
-   <div class="back">
-    <p class="back-p">賀茂神社境内馬場にて、日本の馬と和式騎乗法による、流鏑馬やくらべうま(日本の古式競馬)を
-      はじめとした「馬上武芸奉納まつり」を実施いたしました。</p>
-    <div class="event_img">
-      <img src="img/bazyoubugei2019-31.jpg" alt="イベント写真">
-      <img src="img/horse2.jpg" alt="イベント写真">
+  <main id="page_top">
+    <div class="header-img">
+      <img src="img/head.jpg" alt="ヘッダー画像">
     </div>
-    <div class="skeju">
-      <h5 class="skeju_title">★11/21(土) 馬上武芸奉納まつりスケジュール予定★</h5>
-      <p class="skeju_attention">※例年のスケジュールより全体に早める予定となっています。</p>
-        <div class="skeju_p">
-          <div class="skeju_time">
-            <p class="time">10：30～</p>
-            <p class="ske_timep">流鏑馬奉納</p>
+    <header class="top m_b_50 m_b_0_sp" id="top-section">
+      <div class="bg_top">
+        <div class="container">
+          <!-- <div class="h2_title_content">
+          <h2 class="h2_title">御猟野乃杜牧場より</h2>
+        </div> -->
+
+          <!-- <div class="center">
+            <img src="img/top_img.png" alt="御猟野乃杜牧場イメージ">
+          </div> -->
+          <div class="top-sentence center p_tb_100 p_tb_50_sp">
+            <div class="h3_title_content p_t_0">
+              <h3 class="top_h3">『日本人にこそ、日本の馬と日本の馬具、騎乗法の存在を知ってほしい。』</h3>
+            </div>
+            <div class="text_box left">
+              <p>そんな想いから「日本の馬 御猟野乃杜牧場」は、生まれました。</p>
+              <p>日本の馬 御猟野乃杜牧場(みかりののもりぼくじょう)は、馬の神社である滋賀県近江八幡市 賀茂神社の歴史ある馬場を拠点に、日本の馬と馬文化を伝える活動を行う小さな牧場です。</p>
+            </div>
           </div>
-        <div class="skeju_time">
-           <p class="time">11：15～</p>
-           <p class="ske_timep">馬上武芸演武</p>
         </div>
-        <div class="skeju_time">
-           <p class="time">12：00～</p>
-           <p class="ske_timep">くらべうま出走準備</p>
-        </div>
-        <div class="skeju_time">
-           <p class="time">14：30　</p>
-           <p class="ske_timep">くらべうま終了予定</p>
-        </div>
-      </div><!--skeju_p-->
-    </div><!--skeju-->
-    <div class="red-p">
-      <p>令和2年度(2020年度)の馬上武芸奉納まつりは規模を縮小し無観客にて実施いたします。
-        <br>※無観客開催につき駐車場の用意等行っておりませんのでご注意ください。</p>
-    </div>
-    <img src="img/poster.jpg" alt="イベントポスター" class="event_poster">
-  </div><!--event-back-->
-</section>
-
-<section class="experience" id="experience-section">
-  <h2>体験</h2>
-    <p  class="experience-p">当牧場では皆様に馬に触れてもらう様々な体験を設けています。</p>
-
-   <div class="money">
-    <div class="money_expe">
-      <div class="money_img">
-      <img src="img/horse_ex4.png" alt="体験写真">
       </div>
-       <div class="horse_p">
-        <p><span class="horse_money">琵琶湖外乗(経験者向け)
-        <br><span class="money_time">料金目安  2時間：15,000円
-          <br>3時間：25,000円</span></span></p>
-          <p class="money_p">琵琶湖の砂浜や、湖岸の神社などを回るコースです。
-          コース内容は参加いただく方の騎乗経験などによりアレンジさせていただきます。
-          事前にご相談いただければ、冬季以外は馬と一緒に湖水浴も可能です。
-          一日の受付け上限人数は3名程度です。</p>
-         </div>
-    </div><!--money_expe-->
-    <div class="money_expe img_center">
-      <div class="money_img">
-        <img src="img/horse_ex2.png" alt="体験写真">
-      </div>
-      <div class="horse_p">
-         <p><span class="horse_money">
-          流鏑馬スクーリング（一日）
-            <br><span class="money_time">15,000円</span></span></p>
-          <p class="money_p">高校生以上を対象に、初めての方でも馬のコントロールと弓の実射を
-          体験できる少人数レッスンを一日かけて実施します。
-          乗馬が初めての方以外は、和鞍(日本の鞍)使用となります。
-          一日の受付け上限人数は4名程度です。</p>
-      </div>
-    </div>
-      <div class="money_expe">
-        <div class="money_img">
-         <img src="img/horse_ex5.png" alt="体験写真">
-        </div>
-        <div class="horse_p">
-         <p><span class="horse_money">
-          乗馬体験・神社参拝<br>お散歩コース
-          <br><span class="money_time">大人・子ども共通  １時間  4,000円</span></span></p>
-          <p class="money_p">初めての方から経験者の方まで、お客様それぞれに合わせた乗馬のレッスンを行います。
-          お子様や初めての方はウェスタン鞍で、経験者の方は和鞍でのレッスンも可能です。</p>
-        </div><!--horse_p-->
-      </div><!--money_expe-->
-     </div><!--money_img-->
-     <div class="course">
-      <a href="#" style="text-decoration: none;">その他コース・詳細はこちら</a>
-    </div>  
-</section>
-<div class="attention">
-  <h2>—注意事項—</h2>
-  <p class="attention-p">　・コースにより年齢制限や参加人数上限の設定があります。ご注意下さい。
-    ・各コース料金には、ヘルメットや弓、矢などの各種道具類の貸出し料金が含まれています。
-    ・引き馬以外のコースでは、別途保険料がかかります。以下から選択ください。
-    一日限りの保険：500円
-    一年単位の保険：2,000円程度(ご希望内容により異なります)
-    ・流鏑馬スクーリングや琵琶湖外乗など一日もしくは数時間単位で体験するコースに
-    参加される方は、近江八幡駅まで送迎の対応もいたします。事前にご相談ください。</p>
-</div>
+    </header>
 
-  <!--スライド-->
-  <div class="wrap">
-    <ul class="slideshow">
+
+    <section class="index hidden_sp">
+      <div class="container">
+        <div class="text_box list_text m_b_20">
+          <p class="hidden_sp">クリックすると該当の箇所へ移動します。</p>
+        </div>
+        <ul class="head_list flex jc_start">
+          <!-- <li><a href="#top-section" style="text-decoration:none;">御猟野乃杜牧場より</a></li> -->
+          <li><a href="#event-section" style="text-decoration:none;">イベント</a></li>
+          <li class="m_l_30"><a href="#experience-section" style="text-decoration:none;">牧場で実施中の体験</a></li>
+          <li class="m_l_30"><a href="#question-section" style="text-decoration:none;">よくある質問</a></li>
+          <li class="m_l_30"><a href="#map-section" style="text-decoration:none;">マップ</a></li>
+        </ul>
+        <!-- ハンバーガーメニュー部分 -->
+        <div class="drawer" id="burger">
+
+          <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+          <input type="checkbox" id="drawer-check" class="drawer-hidden">
+
+          <!-- ハンバーガーアイコン -->
+          <label for="drawer-check" class="drawer-open" id="click">
+            <span></span>
+          </label>
+
+          <!-- メニュー -->
+          <nav class="drawer-content">
+            <ul class="drawer-list" id="humber">
+              <li class="drawer-item">
+                <a href="#top-section" style="text-decoration:none;">御猟野乃杜牧場より</a>
+              </li><!-- /.drawer-item -->
+              <li class="drawer-item">
+                <a href="#event-section" style="text-decoration:none;">イベント</a>
+              </li><!-- /.drawer-item -->
+              <li class="drawer-item">
+                <a href="#experience-section" style="text-decoration:none;">体験</a>
+              </li><!-- /.drawer-item -->
+              <li class="drawer-item">
+                <a href="#question-section" style="text-decoration:none;">よくある質問</a>
+              </li>
+              <li class="drawer-item">
+                <a href="#map-section" style="text-decoration:none;">マップ</a>
+              </li>
+            </ul><!-- /.drawer-list -->
+          </nav>
+          <span class="burger-musk" id="musk"></span>
+        </div>
+        <!--drawer-->
+      </div>
+    </section>
+
+    <section class="event" id="event-section">
+      <div class="bg_event">
+        <div class="container">
+          <div class="h3_title_content">
+            <h3 class="h3_title">イベント</h3>
+          </div>
+          <div class="">
+            <div class="bg_white m_b_30">
+              <div class="box_area_text">
+                <p class="">賀茂神社境内馬場にて、日本の馬と和式騎乗法による、流鏑馬やくらべうま(日本の古式競馬)をはじめとした「馬上武芸奉納まつり」を実施いたしました。</p>
+              </div>
+            </div>
+            <div class="m_b_50 flex jc_between block_sp">
+              <div class="img_box m_b_30_sp m_r_20 m_r_0_sp wdt50 wdt100_sp">
+                <img src="img/bazyoubugei2019-31.jpg" alt="イベント写真" class="">
+              </div>
+              <div class="img_box wdt50 wdt100_sp">
+                <img src="img/horse2.jpg" alt="イベント写真">
+              </div>
+            </div>
+            <div class="p_tb_30 p_rl_p20 skeju m_auto m_b_30 center">
+              <div class="text_box m_b_30">
+                <p class="skeju_title">★馬上武芸奉納まつりスケジュール(予定)★
+                  <br><span class="skeju_attention">※例年のスケジュールより全体に早める予定となっています。</span>
+                </p>
+              </div>
+              <div class="time_table flex ai_center wdt80 m_rl_auto block_sp wdt100_sp">
+                <div class="wdt50 wdt100_sp">
+                  <div>
+                    <dl class="m_b_20 flex ai_center jc_start">
+                      <dt>10:30~</dt>
+                      <dd>流鏑馬奉納</dd>
+                    </dl>
+                    <dl class="m_b_20 flex ai_center jc_start">
+                      <dt>11:15~</dt>
+                      <dd>馬上武芸演武</dd>
+                    </dl>
+                    <dl class="m_b_20 flex ai_center jc_start">
+                      <dt>12:00~</dt>
+                      <dd>くらべうま出走準備</dd>
+                    </dl>
+                    <dl class="m_b_20 flex ai_center jc_start">
+                      <dt>14:30</dt>
+                      <dd>くらべうま終了準備</dd>
+                    </dl>
+                    <div class="text_box m_b_30 left">
+                      <p>令和2年度(2020年度)の馬上武芸奉納まつりは規模を縮小し無観客にて実施いたします。
+                        <br><span class="small">※無観客開催につき駐車場の用意等行っておりませんのでご注意ください。</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="center flex_1">
+                  <img src="img/poster.jpg" alt="イベントポスター" class="event_poster">
+                </div>
+              </div>
+              <!--skeju_p-->
+            </div>
+
+          </div>
+          <!--skeju-->
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience-section">
+      <div class="bg_experience">
+        <div class="container">
+
+          <div class="h3_title_content">
+            <h3 class="h3_title">実施中の体験</h3>
+          </div>
+
+          <div class="bg_white m_b_30">
+            <div class="box_area_text">
+              <p class="">当牧場では皆様に馬に触れてもらう様々な体験を設けています。<br>掲載しているもの以外にも実施していますので、お気軽にお問い合わせください。</p>
+            </div>
+          </div>
+
+          <div class="money m_b_40 bg_white">
+            <div class="money_expe flex ai_center jc_between block_sp">
+              <div class="money_img center wdt60 wdt100_sp">
+                <img src="img/horse10.jpg" alt="体験写真">
+              </div>
+              <div class="horse_p flex_1">
+                <div class="h4_title_content m_b_50 m_b_30_sp">
+                  <h4 class="h4_title"><span class="border_bottom">琵琶湖外乗(経験者向け)</span></h4>
+                </div>
+                <div class="text_box">
+                  <p class="money_p">琵琶湖の砂浜や、湖岸の神社などを回るコースです。
+                    コース内容は参加いただく方の騎乗経験などによりアレンジさせていただきます。
+                    事前にご相談いただければ、冬季以外は馬と一緒に湖水浴も可能です。
+                    一日の受付け上限人数は3名程度です。</p>
+                </div>
+                <div class="m_b_30">
+                  <dl class="flex ai_start price_table">
+                    <dt class="">料金</dt>
+                    <div class="m_l_20">
+                      <dd class="m_b_10">2時間：15,000円</dd>
+                      <dd>3時間：25,000円</dd>
+                    </div>
+                  </dl>
+                </div>
+                <div class="text_box">
+                  <p>このコースについてのお問合せは<a href="#" style="text-decoration: none;" class="red">こちら</a></p>
+                </div>
+              </div>
+            </div>
+            <!--money_expe-->
+          </div>
+          <!---->
+          <div class="m_rk_auto m_b_40 bg_white">
+            <div class="money_expe flex ai_center jc_between">
+              <div class="money_img center wdt60 wdt100_sp">
+                <img src="img/horse17.jpg" alt="体験写真">
+              </div>
+              <div class="horse_p">
+                <div class="h4_title_content m_b_50 m_b_30_sp">
+                  <h4 class="h4_title">
+                    <span class="border_bottom">流鏑馬スクーリング（一日）</span>
+                  </h4>
+                </div>
+                <div class="text_box">
+                  <p class="money_p">高校生以上を対象に、初めての方でも馬のコントロールと弓の実射を
+                    体験できる少人数レッスンを一日かけて実施します。
+                    乗馬が初めての方以外は、和鞍(日本の鞍)使用となります。
+                    一日の受付け上限人数は4名程度です。</p>
+                </div>
+                <div class="m_b_30">
+                  <dl class="flex ai_center price_table">
+                    <dt class="">料金</dt>
+                    <div class="m_l_20">
+                      <dd class="">15,000円</dd>
+                    </div>
+                  </dl>
+                </div>
+                <div class="text_box">
+                  <p>このコースについてのお問合せは<a href="#" style="text-decoration: none;" class="red">こちら</a></p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="money m_b_40 bg_white">
+            <div class="money_expe flex ai_center jc_between block_sp">
+              <div class="money_img center wdt60 wdt100_sp">
+                <img src="img/horse13.jpg" alt="体験写真">
+              </div>
+              <div class="horse_p">
+                <div class="h4_title_content m_b_50 m_b_30_sp">
+                  <h4 class="h4_title">
+                    <span class="border_bottom">乗馬体験・神社参拝<br>お散歩コース</span>
+                  </h4>
+                </div>
+                <div class="text_box">
+                  <p class="money_p">初めての方から経験者の方まで、お客様それぞれに合わせた乗馬のレッスンを行います。
+                    お子様や初めての方はウェスタン鞍で、経験者の方は和鞍でのレッスンも可能です。</p>
+                </div>
+                <div class="m_b_30">
+                  <dl class="flex ai_center price_table">
+                    <dt class="">料金</dt>
+                    <div class="m_l_20">
+                      <dd class="">１時間 4,000円（大人・子ども共通）</dd>
+                    </div>
+                  </dl>
+                </div>
+                <div class="text_box">
+                  <p>このコースについてのお問合せは<a href="#" style="text-decoration: none;" class="red">こちら</a></p>
+                </div>
+              </div>
+              <!--horse_p-->
+            </div>
+          </div>
+
+          <!--money_expe-->
+
+          <div class="btn_wrapper m_b_30">
+            <div class="flex ai_center jc_center block_sp">
+              <div class="other_course btn btn_green">
+                <a href="#" style="text-decoration: none;"><i class="fa-solid fa-horse m_r_10"></i>その他コース・詳細</a>
+              </div>
+              <div class="contact_course btn btn_blue m_rl_30 m_rl_0_sp m_tb_20_sp">
+                <a href="#" style="text-decoration: none;"><i class="fa-solid fa-envelope m_r_10"></i>コースについてのお問い合わせ</a>
+              </div>
+              <div class="reserve_course btn btn_purple">
+                <a href="#" style="text-decoration: none;"><i class="fa-solid fa-calendar-check m_r_10"></i>コースの予約</a>
+              </div>
+            </div>
+          </div>
+          <div class="attention">
+            <div class="h5_title_content">
+              <h5 class="h5_title red">注意事項</h5>
+            </div>
+            <ul class="disc_list attention_list bg_beige">
+              <li class="disc_list_item">コースにより年齢制限や参加人数上限の設定があります。ご注意下さい。</li>
+              <li class="disc_list_item">引き馬以外のコースでは、別途保険料がかかります。以下から選択ください。<br />
+                一日限りの保険：500円<br />
+                一年単位の保険：2,000円程度(ご希望内容により異なります)</li>
+              <li class="disc_list_item">流鏑馬スクーリングや琵琶湖外乗など一日もしくは数時間単位で体験するコースに参加される方は、近江八幡駅まで送迎の対応もいたします。事前にご相談ください。
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section>
+      <div class="container_s">
+        <div class="attention">
+          <div class="h5_title_content">
+            <h5 class="h5_title">注意事項</h5>
+          </div>
+          <ul class="disc_list attention_list bg_beige">
+            <li class="disc_list_item">コースにより年齢制限や参加人数上限の設定があります。ご注意下さい。</li>
+            <li class="disc_list_item">引き馬以外のコースでは、別途保険料がかかります。以下から選択ください。<br />
+              一日限りの保険：500円<br />
+              一年単位の保険：2,000円程度(ご希望内容により異なります)</li>
+            <li class="disc_list_item">流鏑馬スクーリングや琵琶湖外乗など一日もしくは数時間単位で体験するコースに参加される方は、近江八幡駅まで送迎の対応もいたします。事前にご相談ください。</li>
+          </ul>
+        </div>
+      </div>
+    </section> -->
+
+    <!--スライド-->
+    <div class="wrap">
+      <ul class="slideshow">
         <li class="content"><img src="img/horse10.jpg"></li>
         <li class="content"><img src="img/horse11.jpg"></li>
         <li class="content"><img src="img/horse13.jpg"></li>
@@ -179,148 +325,213 @@
         <li class="content"><img src="img/horse15.jpg"></li>
         <li class="content"><img src="img/horse16.jpg"></li>
         <li class="content"><img src="img/horse17.jpg"></li>
-    </ul>
-    <ul class="slideshow">
-      <li class="content"><img src="img/horse10.jpg"></li>
-      <li class="content"><img src="img/horse11.jpg"></li>
-      <li class="content"><img src="img/horse13.jpg"></li>
-      <li class="content"><img src="img/horse14.jpg"></li>
-      <li class="content"><img src="img/horse15.jpg"></li>
-      <li class="content"><img src="img/horse16.jpg"></li>
-      <li class="content"><img src="img/horse17.jpg"></li>
-  </ul>
-  <ul class="slideshow">
-    <li class="content"><img src="img/horse10.jpg"></li>
-    <li class="content"><img src="img/horse11.jpg"></li>
-    <li class="content"><img src="img/horse13.jpg"></li>
-    <li class="content"><img src="img/horse14.jpg"></li>
-    <li class="content"><img src="img/horse15.jpg"></li>
-    <li class="content"><img src="img/horse16.jpg"></li>
-    <li class="content"><img src="img/horse17.jpg"></li>
-</ul>
-</div>
-
-<section class="question" id="question-section">
-  <h2>よくある質問</h2>
-  <div class="list">
-    <div class="list-color">
-      <h3>Q1:　どんな牧場ですか？</h3>
-      <p class="plus"></p>
-    </div><!--list-color-->
-    <div class="answer">
-      <p>A: 日本の馬と日本の馬文化が大好きな牧場主が立ち上げた牧場です。
-        日本の馬の活用に以前より取り組んできた紅葉台木曽馬牧場の協力を得ながら、
-        同じ馬好きの仲間たちと共に、日本の馬のよさを皆さまに知っていただきたく様々な活動をしています。
-        馬に乗っていただくには基本予約をしていただく形になりますが、
-        馬とスタッフが空いていれば予約がなくてもご案内可能ですのでお気軽にお声がけください。
-        お馬さんを見にきたり、にんじんをあげる餌やり体験は開場時間中ならいつでもOKです。</p>
-    </div>
-  </div><!--list-->
-  <div class="list">
-    <div class="list-color">
-      <h3>Q2:　初めてでも馬に乗れますか？</h3>
-      <p class="plus"></p>
-    </div><!--list-color-->
-    <div class="answer">
-      <p>A：高校生以上であれば、乗馬の経験がなくても
-        流鏑馬やお散歩(※コース準備中)など、
-        いろいろな乗馬を体験できるコースに参加いただけます。
-        また、お子さまが乗っていただけるコースとして、
-        引き馬や、「やぶさめたいけん」などをご用意しました。</p>
+      </ul>
+      <ul class="slideshow">
+        <li class="content"><img src="img/horse10.jpg"></li>
+        <li class="content"><img src="img/horse11.jpg"></li>
+        <li class="content"><img src="img/horse13.jpg"></li>
+        <li class="content"><img src="img/horse14.jpg"></li>
+        <li class="content"><img src="img/horse15.jpg"></li>
+        <li class="content"><img src="img/horse16.jpg"></li>
+        <li class="content"><img src="img/horse17.jpg"></li>
+      </ul>
+      <ul class="slideshow">
+        <li class="content"><img src="img/horse10.jpg"></li>
+        <li class="content"><img src="img/horse11.jpg"></li>
+        <li class="content"><img src="img/horse13.jpg"></li>
+        <li class="content"><img src="img/horse14.jpg"></li>
+        <li class="content"><img src="img/horse15.jpg"></li>
+        <li class="content"><img src="img/horse16.jpg"></li>
+        <li class="content"><img src="img/horse17.jpg"></li>
+      </ul>
     </div>
 
-  </div><!--list-->
-  <div class="list">
-    <div class="list-color">
-      <h3>Q3:　日本の馬って競馬の馬とは違うんですか？</h3>
-      <p class="plus"></p>
-    </div><!--list-color-->
-    <div class="answer">
-      <p>A：現在、競馬で走っている馬たちは「サラブレッド」といって速く走るために改良された種類の馬です。
-        体はとても大きく(肩のまでの高さで160cm以上)、スレンダーで脚の長い、いわば“アスリート”。
-        アスリートゆえに繊細な面も持ち合わせているので、
-        競馬場や乗馬クラブなど、馬専門の設備で飼育されます。
-        
-        一方、日本の馬は「木曽馬(きそうま)」や「北海道和種(ほっかいどうわしゅ)」などが有名で、
-        どれも体は小柄(肩までの高さ1２0ｃｍから140ｃｍ程度)です。
-        最近は数が減ってしまい種の存続の危機に立たされていますが、
-        適応力が高く、丈夫で扱いやすい大きさなので、
-        かつては民家でも家族の一員として普通に飼われているような、身近な存在でした。</p>
+    <section class="question" id="question-section">
+      <div class="bg_question">
+        <div class="container_s">
+          <div class="h3_title_content">
+            <h3 class="h3_title">よくある質問</h3>
+          </div>
+
+          <div class="list">
+            <div class="list-color">
+              <p>Q1:どんな牧場ですか？</p>
+              <p class="plus"></p>
+            </div>
+            <!--list-color-->
+            <div class="answer">
+              <p>A: 日本の馬と日本の馬文化が大好きな牧場主が立ち上げた牧場です。
+                日本の馬の活用に以前より取り組んできた紅葉台木曽馬牧場の協力を得ながら、
+                同じ馬好きの仲間たちと共に、日本の馬のよさを皆さまに知っていただきたく様々な活動をしています。
+                馬に乗っていただくには基本予約をしていただく形になりますが、
+                馬とスタッフが空いていれば予約がなくてもご案内可能ですのでお気軽にお声がけください。
+                お馬さんを見にきたり、にんじんをあげる餌やり体験は開場時間中ならいつでもOKです。</p>
+            </div>
+          </div>
+          <!--list-->
+          <div class="list">
+            <div class="list-color">
+              <p>Q2:初めてでも馬に乗れますか？</p>
+              <p class="plus"></p>
+            </div>
+            <!--list-color-->
+            <div class="answer">
+              <p>A：高校生以上であれば、乗馬の経験がなくても
+                流鏑馬やお散歩(※コース準備中)など、
+                いろいろな乗馬を体験できるコースに参加いただけます。
+                また、お子さまが乗っていただけるコースとして、
+                引き馬や、「やぶさめたいけん」などをご用意しました。</p>
+            </div>
+
+          </div>
+          <!--list-->
+          <div class="list">
+            <div class="list-color">
+              <p>Q3:日本の馬って競馬の馬とは違うんですか？</p>
+              <p class="plus"></p>
+            </div>
+            <!--list-color-->
+            <div class="answer">
+              <p>A：現在、競馬で走っている馬たちは「サラブレッド」といって速く走るために改良された種類の馬です。
+                体はとても大きく(肩のまでの高さで160cm以上)、スレンダーで脚の長い、いわば“アスリート”。
+                アスリートゆえに繊細な面も持ち合わせているので、
+                競馬場や乗馬クラブなど、馬専門の設備で飼育されます。
+
+                一方、日本の馬は「木曽馬(きそうま)」や「北海道和種(ほっかいどうわしゅ)」などが有名で、
+                どれも体は小柄(肩までの高さ1２0ｃｍから140ｃｍ程度)です。
+                最近は数が減ってしまい種の存続の危機に立たされていますが、
+                適応力が高く、丈夫で扱いやすい大きさなので、
+                かつては民家でも家族の一員として普通に飼われているような、身近な存在でした。</p>
+            </div>
+
+          </div>
+          <!--list-->
+          <div class="list">
+            <div class="list-color">
+              <p>Q4:和式の乗馬場ってどんなものですか？</p>
+              <p class="plus"></p>
+            </div>
+            <!--list-color-->
+            <div class="answer">
+              <p>A：現代の日本で一般的な「ブリティッシュ」や「ウェスタン」のどちらとも違う、
+                日本の古式の馬具を使って乗るのが特徴です。
+                道具が違うので、乗り方、指示の出し方もやはり異なります。
+
+                日本式の乗り方は、馬に乗ったまま戦ったり、狩りをしたりするために発展したものなので、
+                馬への指示を最小限かつ効率的に伝え、
+                馬と騎乗者の双方が自在に動けることに重点が置かれます。</p>
+            </div>
+          </div>
+          <!--list-->
+          <div class="list">
+            <div class="list-color">
+              <p>Q5:雨の日でも乗れますか？</p>
+              <p class="plus"></p>
+            </div>
+            <!--list-color-->
+            <div class="answer">
+              <p>A：よほどの大雨や暴風など、危険と判断される場合以外は雨でも騎乗自体は可能です。
+                ただ、カッパ等の雨具はサイズの問題などもあるので各自で用意いただいています。
+                小さなお子様がいる場合など、悪天候の中乗るのはちょっと心配…という方は、
+                天候やその他の理由で事前キャンセルいただいた場合、キャンセル料はかかりませんので
+                はやめにお知らせくださいませ。</p>
+            </div>
+
+          </div>
+          <!--list-->
+          <div class="list">
+            <div class="list-color">
+              <p>Q6:流鏑馬に挑戦したいのですが、用意するものはありますか？</p>
+              <p class="plus"></p>
+            </div>
+            <!--list-color-->
+            <div class="answer">
+              <p>A：１～２時間程度の短時間の体験であれば、動きやすい、また体温調節のしやすい服装で来ていただければＯＫです。
+                長袖、長ズボン(ジーンズでもＯＫ)にスニーカーといったスタイルの方が多いです。
+                弓矢やヘルメット等はお持ちでしたらご持参いただいても構いませんが、
+                貸出しで対応できますので、なくても大丈夫です。
+
+                一日コースの場合は、騎乗の際に必ず「和鐙」を使用します都合上、
+                乗馬用のブーツなど"かかとの高い靴"、”ヒールのある靴”は不向きです。
+                スニーカー、ズック靴、足袋や足袋靴など底の平らな靴をご用意ください。
+                乗馬経験者の方は、普段の乗馬用の服装に靴だけスニーカー（上からチャップス着用）にすることが多いです。
+                気合いをいれて、道着袴や装束などを持参し、実際着用してレッスンを受ける方もいますよ！
+                また、一日コースはお昼休憩をはさみますが、昼食は持参いただいても、いただかなくてもどちらでも構いません。
+                (持参でない場合は近くのお店にご案内しています)。</p>
+            </div>
+
+          </div>
+          <!--list-->
+        </div>
+      </div>
+    </section>
+
+    <section class="map_wrap" id="map-section">
+      <div class="bg_map">
+        <div class="container">
+          <div class="h3_title_content">
+            <h3 class="h3_title">マップ</h3>
+          </div>
+
+          <div class="">
+            <div class="flex ai_start jc_center block_sp">
+              <div class="wdt50 wdt100_sp">
+                <div class="map m_r_30">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6526.1992765071!2d136.069396!3d35.129187!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5a53a0ba8444f02d!2z5pel5pys44Gu6aasIOW-oeeMn-mHjuS5g-adnOeJp-WgtA!5e0!3m2!1sja!2sjp!4v1659253554568!5m2!1sja!2sjp"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+              <div class="bg_white">
+                <div class="text_box m_b_50">
+                  <div class="h5_title_content m_b_20">
+                    <h5 class="h5_title green">お車でお越しの方</h5>
+                  </div>
+                  <p>牧場の提携駐車場がございますので、そちらをお使いください。<br>
+                    通常1時間無料、以降30分200円となっています。<br>
+                    <span class="red">体験実施の方は3時間無料</span>とさせていただきます。
+                  </p>
+                </div>
+                <div class="text_box m_b_50">
+                  <div class="h5_title_content m_b_20">
+                    <h5 class="h5_title green">電車でお越しの方</h5>
+                  </div>
+                  <p>各線近江八幡駅から<span class="red">徒歩10分</span>となっています。</p>
+                </div>
+                <div class="text_box bg_beige">
+                  <p>当牧場は賀茂神社の敷地にあります。<br />
+                    牧場体験だけでなく参拝も一緒にしていただくことが可能です。</p>
+                  <p>どちらでお越しになる場合もお気をつけてお越しください。</p>
+                </div>
+              </div>
+
+            </div>
+            <!-- <div class="flex jc_around ai_start wdt80 m_rl_auto">
+            <div class="img_box wdt40 wdt100_sp m_rl_auto">
+              <img src="img/map1.jpg" alt="アクセスマップ" class="m_b_20">
+            </div>
+            <div class="img_box wdt40 wdt100_sp m_rl_auto">
+              <img src="img/map2.gif" alt="アクセスマップ">
+            </div>
+          </div> -->
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>日本の馬 御猟野乃杜牧場</p>
+    </footer>
+
+    <div class="go_top">
+      <a href="#page_top" class="btn_top">▲</a>
     </div>
-
-  </div><!--list-->
-  <div class="list">
-    <div class="list-color">
-      <h3>Q4:　和式の乗馬場ってどんなものですか？</h3>
-      <p class="plus"></p>
-    </div><!--list-color-->
-    <div class="answer">
-      <p>A：現代の日本で一般的な「ブリティッシュ」や「ウェスタン」のどちらとも違う、
-        日本の古式の馬具を使って乗るのが特徴です。
-        道具が違うので、乗り方、指示の出し方もやはり異なります。
-        
-        日本式の乗り方は、馬に乗ったまま戦ったり、狩りをしたりするために発展したものなので、
-        馬への指示を最小限かつ効率的に伝え、
-        馬と騎乗者の双方が自在に動けることに重点が置かれます。</p>
-    </div>
-  </div><!--list-->
-  <div class="list">
-    <div class="list-color">
-      <h3>Q5:　雨の日でも乗れますか？</h3>
-      <p class="plus"></p>
-    </div><!--list-color-->
-    <div class="answer">
-      <p>A：よほどの大雨や暴風など、危険と判断される場合以外は雨でも騎乗自体は可能です。
-        ただ、カッパ等の雨具はサイズの問題などもあるので各自で用意いただいています。
-        小さなお子様がいる場合など、悪天候の中乗るのはちょっと心配…という方は、
-        天候やその他の理由で事前キャンセルいただいた場合、キャンセル料はかかりませんので
-        はやめにお知らせくださいませ。</p>
-    </div>
-
-  </div><!--list-->
-  <div class="list">
-    <div class="list-color">
-      <h3>Q6:　流鏑馬に挑戦したいのですが、用意するものはありますか？</h3>
-      <p class="plus"></p>
-    </div><!--list-color-->
-    <div class="answer">
-      <p>A：１～２時間程度の短時間の体験であれば、動きやすい、また体温調節のしやすい服装で来ていただければＯＫです。
-        長袖、長ズボン(ジーンズでもＯＫ)にスニーカーといったスタイルの方が多いです。
-        弓矢やヘルメット等はお持ちでしたらご持参いただいても構いませんが、
-        貸出しで対応できますので、なくても大丈夫です。
-        
-        一日コースの場合は、騎乗の際に必ず「和鐙」を使用します都合上、
-        乗馬用のブーツなど"かかとの高い靴"、”ヒールのある靴”は不向きです。
-        スニーカー、ズック靴、足袋や足袋靴など底の平らな靴をご用意ください。
-        乗馬経験者の方は、普段の乗馬用の服装に靴だけスニーカー（上からチャップス着用）にすることが多いです。
-        気合いをいれて、道着袴や装束などを持参し、実際着用してレッスンを受ける方もいますよ！
-        また、一日コースはお昼休憩をはさみますが、昼食は持参いただいても、いただかなくてもどちらでも構いません。
-        (持参でない場合は近くのお店にご案内しています)。</p>
-    </div>
-
-  </div><!--list-->
-</section>
-
-<section class="map" id="map-section">
-  <h2>マップ</h2>
-  <div class="map-img">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6526.1992765071!2d136.069396!3d35.129187!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5a53a0ba8444f02d!2z5pel5pys44Gu6aasIOW-oeeMn-mHjuS5g-adnOeJp-WgtA!5e0!3m2!1sja!2sjp!4v1624711183970!5m2!1sja!2sjp" 
-    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-    class="access">
-    </iframe>
-  </div><!--map-img-->
-    <div class="map-p">
-      <p>電車でお越しの方：最寄り駅→東海道本線 近江八幡駅</p>
-      <p>お車でお越しの方：名神高速道路 竜王インターから約15分</p>
-    </div><!--map-p-->
-</section>
-
-<footer>
-  <p>日本の馬 御猟野乃杜牧場</p>
-</footer>
-  <!--jQueryの読み込み-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="horse.js"></script>
-
+    <!--jQueryの読み込み-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="horse.js"></script>
+  </main>
 </body>
+
 </html>
