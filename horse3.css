@@ -1,137 +1,226 @@
-@media (max-width: 670px){
-  .top h1,.event h2,.experience h2,.question h2,.map h2 {
-    margin: 32px 0 20px 0;
-    font-size: 1.3rem;
+@media (max-width: 670px) {
+  .bg_white,.bg_beige {
+    padding: 20px;
   }
-  .top h2 {
-    font-size: 1rem;
-    margin-bottom: 8px;
-  }  
-  .top h3{
-    font-size: 0.7rem;
-  }  
-  .top-sentence {
-    width: 90%;
-    background-color: rgba(255, 255, 255, 0.767);
-    padding: 24px 8px;
+  .top-sentence .h3_title_content {
+    padding-bottom: 0;
   }
-  .money,.back {
-    padding: 32px 8px;
+  .h4_title {
+    font-size: 20px;
   }
-  .back-p,.red-p p,.top-sentence h1 {
-    font-size: 0.7rem;
-    line-height: 1.2;
-    letter-spacing: 1px;  
-  } 
-  .event_img,.skeju_time,.money_expe,.img_center,.map-img {
+
+  .top,
+  .event,
+  .map {
+    width: 100%;
+  }
+
+  .block_sp {
     display: block;
   }
+
+  .top h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 1.2;
+  }
+
+  .top h4 {
+    font-size: 12px;
+  }
+
+  .h3_title {
+    font-size: 20px;
+  }
+
+  .text_box p {
+    font-size: 15px;
+  }
+
+  .top-sentence {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.767);
+    padding: 0px 0px;
+  }
+
+  .money,
+  .back {
+    padding: 32px 8px;
+  }
+
+  .event_img,
+  .skeju_time,
+  .money_expe,
+  .img_center,
+  .map-img {
+    display: block;
+  }
+
   .drawer-open {
     right: 20px;
   }
+
   .drawer-item a {
     font-size: 20px;
-  }  
-    /*イベント*/
+  }
+
+  /*イベント*/
+  .box_area_text p {
+    font-size: 15px;
+  }
+
   .back {
     width: 100%;
   }
+
   .event_img img {
     width: 100%;
-    margin: 24px 0;
+    margin: 40px 0;
   }
+
   .event_poster {
     width: 80%;
   }
+
   .skeju {
     width: 100%;
-    margin:  0 auto;
+    margin: 0 auto;
     padding: 16px 8px;
     margin-top: 20px;
-  }  
-  .skeju h5 {
-    font-size: 1rem!important;
-  }  
-  .skeju_time p,.red-p {
-    font-size: 1rem!important;
-    line-height: 1.2;
-  }  
-  .skeju_attention {
-    font-size: 0.7rem;
   }
+
+  .skeju_title,
+  .skeju_time p,
+  .red-p {
+    font-size: 15px !important;
+  }
+
+  .skeju_attention {
+    font-size: 10px;
+  }
+
   .skeju_p {
     width: 60%;
   }
+
   .skeju_time {
     width: 100%;
     text-align: left;
   }
+
   .ske_timep {
     margin-left: 0px;
   }
-  .red-p p{
+
+  .red-p p {
     margin-bottom: 32px;
   }
+
   .attention-p {
     padding: 20px 20px;
   }
+
   /*体験*/
-  .experience-p  {
+  .price_table dt {
     font-size: 15px;
+    padding: 10px 15px;
     text-align: center;
-    width: 90%;
-    margin: 32px auto;
+    width: 25%;
   }
-  .money_p{
-    font-size: 0.8rem;
-  }  
+
+  .price_table dd {
+    font-size: 15px;
+  }
+
+  .experience-p {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .experience-p p {
+    font-size: 15px;
+    margin-bottom: 32px;
+  }
+
+  .money_p {
+    font-size: 13px;
+    padding: 20px;
+  }
+
   .img_center {
     margin: 96px auto;
   }
+
   .money {
-    width: 90%;
-    border-radius: 50px;
     padding: 32px 24px;
-  }  
-  .money_expe p,.money_expe img {
+  }
+
+  .money_expe p,
+  .money_expe img {
     width: 100%;
   }
-  .horse_money {
-    font-size: 1.2rem;
-  }
+
+  .horse_money,
   .money_time {
-    font-size: 1rem;
+    font-size: 15px;
   }
+
+  .horse_money {
+    font-size: 20px;
+  }
+
   .horse_p {
     width: 100%;
-  }  
+    margin-top: 30px;
+  }
+
   .course {
     width: 100%;
     margin: 48px 0;
     text-align: center;
   }
+
   .attention {
     margin: 64px auto;
-  }  
+  }
+
   .wrap {
     height: 10%;
   }
+.btn {
+  padding: 20px 15px;
+}
+  .btn a {
+    font-size: 18px;
+  }
+  .attention {
+    width: 100%;
+  }
+  .attention_list {
+    padding: 25px;
+  }
   /*質問*/
+  .container_s {
+    width: 100%;
+  }
   .list {
     width: 90%;
-  }  
-  .list-color h3 {
-    font-size: 0.8rem;
-    line-height: 1.5;
   }
+  .list p {
+    font-size: 15px;
+  }
+
+  .list-color h3 {
+    font-size: 15px;
+  }
+
   /*マップ*/
   .map {
     margin-bottom: 72px;
   }
-  .map-img,.map-p {
-    width: 100%;
-  }
-  .map-p {
-    font-size: 0.5rem;
+
+  .map-img img {
+    margin-bottom: 24px;
   }
 }
